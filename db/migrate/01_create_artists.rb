@@ -7,7 +7,7 @@ class CreateArtists < ActiveRecord::Migration
   end
 
 
-  def change 
+  def change
     create_table :artists do |t|
       t.string :name
       t.string :genre
